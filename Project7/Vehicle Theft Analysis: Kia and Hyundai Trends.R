@@ -186,3 +186,4 @@ stacked_bar_plot <- ggplot(thefts_filtered, aes(x = reorder(geo_name, -Thefts),
 
 ggsave("car_thefts_stacked_bar_top10.png", plot = stacked_bar_plot, width = 10, 
        height = 6, bg = "transparent")
+
